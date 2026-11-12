@@ -1,95 +1,33 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+p { 
+  color:black; 
+  font-family: Verdana; 
 }
 
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ed82a2;
-  color: #ed82a2;
-  line-height¿;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1.2rem 5%;
-  border-bottom: 1px solid #eaeaea;
+/* 2. Aplica un fondo amarillo y texto en negrita a todos los elementos que tengan la clase importante. */ 
+.importante { 
+  background-color:pink; 
+  font-weight: 800; 
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+/* 3. Agrega un borde verde sólido de 3 píxeles y un padding de 10 píxeles al elemento con el ID especial. */ 
+#especial { 
+  border: 3px solid violet; 
+  padding: 10px; 
 }
 
-.logo-container img {
-  height: 45px;
-  width: auto;
+/* 4. Establece un margen exterior de 10 píxeles y un margen interior de 5 píxeles para todos los elementos de la página. */
+* { 
+  margin: 10px; 
+  padding: 5px; 
 }
 
-.logo-container h1 {
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-  color: var#fc0f56;
-  text-transform: uppercase;
+/* 5. Haz que los encabezados <h1> y <h2> tengan el mismo estilo: color rojo y texto centrado. */ 
+h1, h2 { 
+  color: BC00FF; 
+  text-align: center; 
 }
 
-
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 15px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: 600;
-  padding: 8px 14px;
-  border-radius: 4px;
-  font-size: 0.95rem;
-  transition: all 0.3s ease;
-}
-
-nav ul li a:hover,
-nav ul li a.activo {
-  background-color: #ba385f;
-  color: #ffffff;
-}
-
-
-main {
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-section {
-  background: #ffffff;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.04);
-}
-
-h2 {
-  color: varfc0f56;
-  font-size: 2rem;
-  margin-bottom: 20px;
-  font-weight: 400;
-  letter-spacing: 1px;
-}
-
-p {
-  margin-bottom: 20px;
-}
-
-
-
-footer {
-  text-align: center;
-  padding: 25px;
-  background-color: #1a1a1a;
-  color: #ffffff;
-  margin-top: 60px;
-  font-size: 0.9rem;
+/* 6. Cambia el color del texto a morado solo para los párrafos (<p>) que tengan la clase importante. */ 
+p.importante { 
+  color: BC00FF#; 
 }
