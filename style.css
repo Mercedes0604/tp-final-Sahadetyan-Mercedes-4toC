@@ -49,3 +49,17 @@ nav ul li a {
 nav ul li a:hover {
     color: #6b4242;
 }
+body {
+    background-color: #fffaf9;
+}
+
+main {
+    background-color: #fffaf9;
+}
+
+footer {
+    background-color: #f5e9e8;
+    color: #704747;
+    padding: 20px;
+    text-align: center;
+}
