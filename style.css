@@ -1,33 +1,51 @@
-p { 
-  color:black; 
-  font-family: Verdana; 
+
+/* Configuración general */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* 2. Aplica un fondo amarillo y texto en negrita a todos los elementos que tengan la clase importante. */ 
-.importante { 
-  background-color:pink; 
-  font-weight: 800; 
+/* Encabezado */
+header {
+    background-color: #f5e9e8;
+    padding: 15px 30px;
 }
 
-/* 3. Agrega un borde verde sólido de 3 píxeles y un padding de 10 píxeles al elemento con el ID especial. */ 
-#especial { 
-  border: 3px solid violet; 
-  padding: 10px; 
+/* Logo y nombre */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
-/* 4. Establece un margen exterior de 10 píxeles y un margen interior de 5 píxeles para todos los elementos de la página. */
-* { 
-  margin: 10px; 
-  padding: 5px; 
+.logo-container img {
+    width: 70px;
 }
 
-/* 5. Haz que los encabezados <h1> y <h2> tengan el mismo estilo: color rojo y texto centrado. */ 
-h1, h2 { 
-  color: BC00FF; 
-  text-align: center; 
+/* Barra de navegación */
+nav {
+    background-color: #d8b5b2;
+    padding: 12px;
+    margin-top: 15px;
 }
 
-/* 6. Cambia el color del texto a morado solo para los párrafos (<p>) que tengan la clase importante. */ 
-p.importante { 
-  color: BC00FF#; 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #6b4242;
 }
